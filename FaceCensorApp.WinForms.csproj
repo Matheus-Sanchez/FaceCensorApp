@@ -9,8 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FaceCensorApp.AI\FaceCensorApp.AI.csproj" />
     <ProjectReference Include="..\FaceCensorApp.Application\FaceCensorApp.Application.csproj" />
     <ProjectReference Include="..\FaceCensorApp.Domain\FaceCensorApp.Domain.csproj" />
+    <ProjectReference Include="..\FaceCensorApp.Infrastructure\FaceCensorApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

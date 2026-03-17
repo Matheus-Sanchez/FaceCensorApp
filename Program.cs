@@ -5,7 +5,8 @@ internal static class Program
     [STAThread]
     static void Main()
     {
-        System.Windows.Forms.ApplicationConfiguration.Initialize();
-        System.Windows.Forms.Application.Run(new Form1());
+        global::System.Windows.Forms.Application.EnableVisualStyles();
+        global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+        global::System.Windows.Forms.Application.Run(new MainForm());
     }
 }
